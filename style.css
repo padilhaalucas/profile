@@ -1,0 +1,188 @@
+body {
+  background-color: #f7f9fc;
+}
+
+.content {
+  margin-top: 40px;
+  margin-bottom: auto;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1.0);
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(0, 0, 0, 1.0);
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 100;
+  text-align: center;
+  box-shadow: 25px 30px 50px rgba(9, 142, 255, 0.1);
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.content:hover, .content:focus, .content:active {
+  -webkit-transform: scale(1.1) rotate(1deg);
+  transform: scale(1.1) rotate(1deg);
+}
+
+
+.content-description {
+  box-shadow: 25px 30px 50px rgba(9, 142, 255, 0.1);
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 1.0);
+  text-align: center;
+  font-family: 'Nanum', sans-serif;
+  font-size: 23px;
+  font-weight: 120;
+  border-radius: 10px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.content-description:hover, .content-description:focus, .content-description:active {
+  -webkit-transform: scale(1.1) rotate(1deg);
+  transform: scale(1.1) rotate(1deg);
+}
+
+#description {
+  color: rgba(80, 80, 80, 1.0);
+}
+
+#lw-btn {
+  background-color: #ff0000;
+  padding: 4px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+#lw-btn:hover {
+  background-color: #c10000;
+}
+
+#my-img-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.links-media {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: rgba(255, 255, 255, 1.0);
+  box-shadow: 25px 30px 50px rgba(9, 142, 255, 0.1);
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  border-radius: 8px;
+  list-style: none;
+  padding: 15px;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.links-media:hover, .links-media:focus, .links-media:active {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: #2098D1;
+  background-color: #2098d1;
+  color: white;
+}
+
+#follow-me {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.social-media {
+
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fab:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
